@@ -1,5 +1,22 @@
+:root {
+  --color-blue: #2196f3;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-dark-gray: #212121;
+  --color-silver: #757575;
+  --color-footer-gray: #ffffff99;
+  --color-brightgray: #e5e5e5;
+  --color-gray: #f5f4fa;
+  --color-darkgray: #2f303a;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-silver);
+  background-color: var(--color-white)
 }
 /*index.html and portfolio.html-header*/
 
@@ -10,7 +27,7 @@ header {
   left: 0px;
   top: 0px;
 
-  background: #ffffff;
+  background: var(--color-white);
 }
 .webstudio {
   position: absolute;
@@ -28,7 +45,7 @@ header {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--color-blue);
 }
 .agency {
   position: absolute;
@@ -44,9 +61,9 @@ header {
   line-height: 16px;
   letter-spacing: 0.02em;
 text-decoration: none;
-  color: #000000;
+  color: var(--color-black);
 }
-.agency:hover {color:#2196f3}
+.agency:hover {color: var(--color-blue)}
 .portfolio {
   text-decoration: none;
   position: absolute;
@@ -62,9 +79,9 @@ text-decoration: none;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #000000;
+  color: var(--color-black);
 }
-.portfolio:hover{color:#2196f3}
+.portfolio:hover{color: var(--color-blue)}
 .contact {
   text-decoration: none;
   position: absolute;
@@ -80,9 +97,9 @@ text-decoration: none;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #000000;
+  color: var(--color-black);
 }
-.contact:hover {color:#2196f3}
+.contact:hover {color:var(--color-blue)}
 .mail {
   text-decoration: none;
   position: absolute;
@@ -98,7 +115,7 @@ text-decoration: none;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--color-blue);
 }
 .tel {
   text-decoration: none;
@@ -115,26 +132,26 @@ text-decoration: none;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--color-silver);
 }
 
 
 /*index.html-*/
 .studio {
-  color: #000000;
+  color: var(--color-black);
 }
 
 h1 {
 text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: #212121;
+  background-color: var(--color-dark-gray);
   position: absolute;
   /* width: 1600px;
   height: 600px; */
   left: 0px;
   top: 80px;
-  color: #ffffff;
+  color: var(--color-white);
   position: absolute;
 width: 1600px;
 height: 600px;
@@ -205,7 +222,7 @@ background: #2F303A;
   letter-spacing: 0.03em;
   width: 270px;
   height: 75px;
-  color: #757575;
+  color: var(--color-silver);
 }
 .lorem-second {font-family: 'Roboto';
   font-style: normal;
@@ -216,7 +233,7 @@ background: #2F303A;
   width: 270px;
   height: 75px;
   
-  color: #757575;
+  color: var(--color-silver);
 margin-top: 35px;}
 
 
@@ -230,7 +247,7 @@ margin-top: 35px;}
   height: 75px;
   margin-top: 35px;
   
-  color: #757575;}
+  color: var(--color-silver);}
 .lorem-fourth {font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -240,7 +257,7 @@ margin-top: 35px;}
   width: 270px;
   height: 75px;
   margin-top: 35px;
-  color: #757575;} 
+  color: var(--color-silver);} 
 
 
 .lorem-text {
@@ -253,7 +270,7 @@ letter-spacing: 0.03em;
 width: 270px;
 height: 75px;
 
-color: #757575;
+color: var(--color-silver);
 }
 
 /*what we are doing + photos */
@@ -266,7 +283,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--color-dark-gray);
 
 
 }
@@ -291,7 +308,7 @@ border-radius: 0px;}
 
   letter-spacing: 0.03em;
   
-  color: #212121;
+  color: var(--color-dark-gray);
 
 }
 .ocupation {font-family: 'Roboto';
@@ -304,7 +321,7 @@ border-radius: 0px;}
   text-align: center;
   letter-spacing: 0.03em;
   
-  color: #757575;}
+  color: var(--color-silver);}
 
 /* webstudio colors*/
 
@@ -320,7 +337,7 @@ border-radius: 0px;}
   position: absolute;
   width: 145px;
   height: 31px;
-  color: #2196f3;}
+  color: var(--color-blue);}
 
   .web-foot {
     font-family: "Raleway";
@@ -332,13 +349,13 @@ border-radius: 0px;}
     
     letter-spacing: 0.03em;
   
-    color: #000000;}
+    color: var(--color-black);}
 
 
 
     /*footer*/
   .background {
-      background: #2F303A;
+      background: var(--color-darkgray);
       position: absolute;
 width: 1600px;
 height: 252px;
@@ -348,7 +365,7 @@ margin-top: 124px;
 
     }
     address {
-   color: #ffffff;
+   color: var(--color-white);
  font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -397,17 +414,17 @@ button {margin-top: 20px;
 width: 121px;
 height: 38px;
 border: 0em;
-color: #ffffff;
+color: var(--color-white);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
- background: #F5F4FA;
+ background: var(--color-gray);
 border-radius: 4px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--color-dark-gray);
     }
     
     button:hover {
-      color: white; background-color: #2196f3;
+      color: var(--color-white); background-color: var(--color-blue);
       cursor: pointer; 
       
     }
@@ -418,7 +435,7 @@ color: #212121;
       line-height: 36px;
       letter-spacing: 0.06em;
 
-      color: #212121;}
+      color: var(--color-dark-gray);}
       .addictional-descr {font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -426,4 +443,4 @@ color: #212121;
         line-height: 30px;
         letter-spacing: 0.03em;
 
-        color: #757575;}
+        color: var(--color-silver);}
