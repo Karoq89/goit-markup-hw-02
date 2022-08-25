@@ -143,20 +143,19 @@ text-decoration: none;
 
 h1 {
 text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   background-color: var(--color-dark-gray);
-  position: absolute;
-  /* width: 1600px;
-  height: 600px; */
-  left: 0px;
-  top: 80px;
+  position:absolute;
   color: var(--color-white);
   position: absolute;
 width: 1600px;
 height: 600px;
 left: 0px;
-top: 80px;
+ top: 80px;
 
 background: #2F303A;
 }
@@ -213,6 +212,11 @@ background: #2F303A;
   color: #212121;
   
 }
+.container {display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;}
+
 .lorem-first {margin-top: 774px;
   font-family: 'Roboto';
   font-style: normal;
@@ -256,25 +260,13 @@ margin-top: 35px;}
   letter-spacing: 0.03em;
   width: 270px;
   height: 75px;
-  margin-top: 35px;
-  color: var(--color-silver);} 
+ margin-top: 35px;;
+  color: var(--color-silver);
+color: var(--color-silver);}
 
-
-.lorem-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-width: 270px;
-height: 75px;
-
-color: var(--color-silver);
-}
-
+ 
 /*what we are doing + photos */
-
+.our-work {text-align: center;}
 .what-we-doing {
   font-family: 'Roboto';
 font-style: normal;
@@ -284,16 +276,28 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--color-dark-gray);
-
-
 }
 /* work & team*/
 
 .our-work {margin-top: 60px;
 }
-.our-team {margin-top: 60px;
+.our-team > ul {margin-top: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
 }
-.meet-our-team {text-align: center;}
+.meet-our-team {text-align: center;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  
+  letter-spacing: 0.03em;
+  color: var(--color-dark-gray);}
 /* .man-laptop {
 border-radius: 0px;}
 .woman-blonde{}
